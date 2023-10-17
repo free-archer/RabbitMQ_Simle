@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3ef88b98-b536-4d57-aab6-4e8911a288d1">
-  <name>Конфигурация</name>
+  <name>RabbitMQ_Simle</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пример Rabbit MQ</value>
+  </synonym>
+  <comment>Пример реализации обмена сообщениями с Rabbit MQ</comment>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="8f170e53-a4cd-4b67-a0dc-922b70f5ff8a"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="40b16e00-0077-4f3e-88ce-ef026d922916"/>
   <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="c1323e24-f061-4556-bcc2-c2b331b532ae"/>
@@ -21,6 +26,18 @@
     </functionality>
   </usedMobileApplicationFunctionalities>
   <defaultLanguage>Language.Русский</defaultLanguage>
+  <detailedInformation>
+    <key>ru</key>
+    <value>Пример реализации обмена сообщениями с Rabbit MQ</value>
+  </detailedInformation>
+  <copyright>
+    <key>ru</key>
+    <value>free</value>
+  </copyright>
+  <vendorInformationAddress>
+    <key>ru</key>
+    <value>bespalov.alexey@yandex.ru</value>
+  </vendorInformationAddress>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <compatibilityMode>8.3.20</compatibilityMode>
