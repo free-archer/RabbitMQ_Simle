@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6a457f2e-ad96-4be1-8811-39b965248832">
+  <producedTypes>
+    <objectType typeId="acdcd9eb-f025-45e6-976e-1914f877d7f5" valueTypeId="78e8836a-5e5b-4680-8802-df47a4a7bd79"/>
+    <managerType typeId="5b1aa060-7eb4-4542-8418-a8eff3525dd1" valueTypeId="fa7f2883-c45d-496f-8e98-7c2c4b64f82f"/>
+  </producedTypes>
+  <name>ПримерЗагрузки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пример загрузки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПримерЗагрузки.Form.ЗагрузкаНаКлиенте</defaultForm>
+  <forms uuid="b14fabb2-c413-435b-9c83-0cbba2f42924">
+    <name>ЗагрузкаНаКлиенте</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузка на клиенте</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="92cda1e3-180b-4402-a6d7-bb95ebf2b1a6">
+    <name>ЗагрузкаНаСервере</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузка на сервере</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="c574a38f-a3d6-4f18-a701-d33578c744d6">
+    <name>ЗагрузкаНаКлиенте</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузка на клиенте</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="c41f62d0-de81-4a04-a6b6-d3d245ca3ee2">
+    <name>ЗагрузкаНаСервере</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузка на сервере</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>
