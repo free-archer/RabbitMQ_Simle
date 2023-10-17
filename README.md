@@ -3,4 +3,5 @@
 
 В конфигурации реализовать пример работы с Rabbit MQ на клиенте и на сервере. Настройки подключения хранятся в регистре. Это позволяет легко настроить подключения и проверить работоспособность сервиса.
 
-![image](https://github.com/free-archer/RabbitMQ_Simle/assets/36464371/fc5fea2d-a0da-4547-a398-b3b111bcc991)
+![image](https://github.com/free-archer/RabbitMQ_Simle/assets/36464371/d28976c0-694d-470a-94fe-25ae445d7005)
+
