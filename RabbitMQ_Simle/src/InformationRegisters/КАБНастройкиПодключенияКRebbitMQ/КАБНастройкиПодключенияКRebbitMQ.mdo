@@ -116,6 +116,26 @@
       <value></value>
     </fillValue>
   </resources>
+  <resources uuid="784c194e-c51a-48cb-b01f-8f513a0274f4">
+    <name>КлючМаршрута</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ маршрута</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
   <resources uuid="4259b033-fbdd-4ff7-8dcb-0be78afae29a">
     <name>ИмяОчереди</name>
     <synonym>
